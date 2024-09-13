@@ -3,7 +3,7 @@
 
 let sex = "Female"
 
-person={
+person={          
   name:"Tolu",
   gender: sex
 }

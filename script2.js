@@ -382,6 +382,72 @@ const outerFn =() =>{
 
 outerFn()
 
+// strings in details
+
+const single = 'This is a string written inside a of single quote '
+const double = "This is a string written inside a of double quote"
+const backticks = `This is a string written inside a of backtick quote`
+
+console.log(backticks)
+console.log(single)
+console.log(double)
+
+// EXAMPLE 2
+
+const single1 = '${2+2}'
+console.log(single1);
+
+const double1 = '${2+2}'
+console.log(double1);
+
+const backticks1 = '${2+2}'
+console.log(backticks1);
+
+// EXAMPLE 3
+
+// String inside string
+const greetingg = "I'm John. He's not serious"
+console.log(greetingg)
+
+const greetingg1 = `I'm John, peopple call me "Johnny"`
+console.log(greetingg1)
 
 
+// Escape Character
 
+const greetting = 'Hi, I\'m Teddy but people call me \'TeddyMan\' '
+console.log(greetting)
+
+// String Length
+// return the length of string
+const naame = "Emmanuel Teddy, Alimi Muaz"
+console.log(naame.length)
+
+// USING POSITON OF CHAR
+
+const firstLetter = naame[0]
+console.log(firstLetter);
+
+const lastLetter = naame[naame.length -1];
+console.log(lastLetter)
+
+// Change string case
+
+const mixedStringCase = "Hello, how are you?"
+
+const lowerCase = mixedStringCase.toLowerCase()
+console.log(lowerCase)
+const upperCase = mixedStringCase.toUpperCase()
+console.log(upperCase)
+
+// searching for a substring
+
+// STR INDEXOF()
+const exampleStr = "I love dogs, he said, dogs are great!"
+console.log(exampleStr.indexOf("dog"))
+console.log(exampleStr.indexOf("cat"))
+
+// LAST INDEXOF()
+const sentence = "I am hungry, I need to eat good food"
+const lastIndexOf = sentence.lastIndexOf("eat")
+console.log(lastIndexOf);
